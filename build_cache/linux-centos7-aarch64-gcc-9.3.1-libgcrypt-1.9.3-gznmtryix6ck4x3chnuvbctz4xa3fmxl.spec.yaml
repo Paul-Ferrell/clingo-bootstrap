@@ -1,0 +1,85 @@
+spec:
+- libgcrypt:
+    version: 1.9.3
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: aarch64
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: skfr2gtd3vho3xepzchzgbkvkogxf4xy5dhqssikumrpx2b76smq====
+    dependencies:
+      libgpg-error:
+        hash: ujunezjekfbixwemaxr5kgpcno5i3djw
+        type:
+        - build
+        - link
+    hash: gznmtryix6ck4x3chnuvbctz4xa3fmxl
+    full_hash: uomdbnheiwiselxfdo2epsqdutgeydrv
+    build_hash: sexd32bobulj2jvk6u6izege54fyiwso
+- libgpg-error:
+    version: '1.42'
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: aarch64
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: ks2lkhntxixbclgaygkl7v7nc2qg43uj7sopoiopio7vsemiuk4q====
+    dependencies:
+      gawk:
+        hash: e277qpxggs445ibasaw64h7pclkiguub
+        type:
+        - build
+    hash: 3dkguooajaaejhsebigs2e3lhk37mtem
+    full_hash: ujunezjekfbixwemaxr5kgpcno5i3djw
+    build_hash: plqb5z624m37wlsnvr2gsr2a4xgeouxm
+- gawk:
+    version: 4.0.2
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: aarch64
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    external:
+      path: /usr
+      module:
+      extra_attributes: {}
+    package_hash: t24kt3qigracnnailckxumdpfqks66sdeuf7a5qesxmmjxjqhjqa====
+    hash: 5bfgfyq44drmyv6wmgp5xdfh5sfmk6yi
+    full_hash: e277qpxggs445ibasaw64h7pclkiguub
+    build_hash: 5bfgfyq44drmyv6wmgp5xdfh5sfmk6yi
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: e3b4f15e8bfc5eea74e60e16cd4fcc877697517a8f616d31f7cfb37f99717a44
+buildinfo:
+  relative_prefix: linux-centos7-aarch64/gcc-9.3.1/libgcrypt-1.9.3-gznmtryix6ck4x3chnuvbctz4xa3fmxl
+  relative_rpaths: false

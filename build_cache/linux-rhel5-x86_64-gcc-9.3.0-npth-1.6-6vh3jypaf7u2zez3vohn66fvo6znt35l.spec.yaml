@@ -1,0 +1,28 @@
+spec:
+- npth:
+    version: '1.6'
+    arch:
+      platform: linux
+      platform_os: rhel5
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 9.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: rwzqcpbpjjavzbvkz54i5swvezjwfzycxh5uy3tcmvt3nv7mslia====
+    hash: 6vh3jypaf7u2zez3vohn66fvo6znt35l
+    full_hash: 72eqme6hfi7tzw4p2yitfgo5zgwqfsij
+    build_hash: 6vh3jypaf7u2zez3vohn66fvo6znt35l
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: d51c3e14d735a582cbe3f0647ff6ff81c3c527c22e16359b7283a154f0d07513
+buildinfo:
+  relative_prefix: linux-rhel5-x86_64/gcc-9.3.0/npth-1.6-6vh3jypaf7u2zez3vohn66fvo6znt35l
+  relative_rpaths: false

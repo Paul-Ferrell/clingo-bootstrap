@@ -1,0 +1,310 @@
+spec:
+- gnupg:
+    version: 2.3.1
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      cflags:
+      - -mmacosx-version-min=10.13
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: as7xzenbmiy2obxksq5cntflnentdoqv44sepwhjdarnxthe46da====
+    dependencies:
+      libassuan:
+        hash: bbgunbhm2t2oje6hpkmdtxvkwh3ibn4j
+        type:
+        - build
+        - link
+      libgcrypt:
+        hash: tldlagbwtfop4ldcbdtbaskvoyxprhuk
+        type:
+        - build
+        - link
+      libgpg-error:
+        hash: efoyjkfx5j2k2dh3usp7tiwqner3imeu
+        type:
+        - build
+        - link
+      libiconv:
+        hash: qd25nwk2keb46dsuki5tlvelne7hcisy
+        type:
+        - build
+        - link
+      libksba:
+        hash: lvkjarhomiodki75p567xfdx2kvuo2nx
+        type:
+        - build
+        - link
+      npth:
+        hash: mbcq57g5cviayq7ypouecqvnkpsrh2ai
+        type:
+        - build
+        - link
+      pinentry:
+        hash: kkpsam5zk5zxcomn42ocb24bxn55abta
+        type:
+        - run
+      zlib:
+        hash: ee5oj5zwwfu35fsyt2jf4f4ewl2dwm55
+        type:
+        - build
+        - link
+    hash: 47vilwybwuxved7jov7esiad3qlkv5rp
+    full_hash: 6ul3yw6zmezyq5bk5rog2yvea2dpvrtw
+    build_hash: nfwd63mvjpqw3syatqdrrxquqvz5ysua
+- libassuan:
+    version: 2.5.5
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      cflags:
+      - -mmacosx-version-min=10.13
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: 54t6mdshhmuaaunyeyfthbn6ejurfufvkuqbzmjm7csuusftzorq====
+    dependencies:
+      libgpg-error:
+        hash: efoyjkfx5j2k2dh3usp7tiwqner3imeu
+        type:
+        - build
+        - link
+    hash: 2upi74qccouj4k6d7wultp2u5fntayi3
+    full_hash: bbgunbhm2t2oje6hpkmdtxvkwh3ibn4j
+    build_hash: yhx265zw5bcn3bol3l37uxvyrnly4rev
+- libgpg-error:
+    version: '1.42'
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      cflags:
+      - -mmacosx-version-min=10.13
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: mycuq2w4p7njxaydwsnf66vnjj74ouekz6hsa2hvdnlbcg7nhe7a====
+    dependencies:
+      gawk:
+        hash: yy2iyyt6rrbelj6fkq5z66gqyyjhgplr
+        type:
+        - build
+    hash: hph66gvb7vlinpzwoytxq27ojb7gtl2j
+    full_hash: efoyjkfx5j2k2dh3usp7tiwqner3imeu
+    build_hash: 4gw7s5vqs3w76gkz7zdlmtgt5dit5flo
+- gawk:
+    version: 5.1.0
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      cflags:
+      - -mmacosx-version-min=10.13
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    external:
+      path: /usr/local
+      module:
+      extra_attributes: {}
+    package_hash: ubpoh2vyh46fyaruj3jblimedbaotumfe5c3gxclh6y4nowej62q====
+    hash: iejesutrcoyuhocghl5zlbsqhol2qxcx
+    full_hash: yy2iyyt6rrbelj6fkq5z66gqyyjhgplr
+    build_hash: iejesutrcoyuhocghl5zlbsqhol2qxcx
+- libgcrypt:
+    version: 1.9.3
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      cflags:
+      - -mmacosx-version-min=10.13
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: skfr2gtd3vho3xepzchzgbkvkogxf4xy5dhqssikumrpx2b76smq====
+    dependencies:
+      libgpg-error:
+        hash: efoyjkfx5j2k2dh3usp7tiwqner3imeu
+        type:
+        - build
+        - link
+    hash: xzhvvm44cfxwvgqgkpbeucpnl4dbj4p2
+    full_hash: tldlagbwtfop4ldcbdtbaskvoyxprhuk
+    build_hash: xxl3q4saas4nc6ifmvqrm627sozbu2nc
+- libiconv:
+    version: '1.16'
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      cflags:
+      - -mmacosx-version-min=10.13
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: mgw2tsf2rk73dqh2o4vdm4sawz2drd2mfe26zrfjfunvj5r5gplq====
+    hash: ckpif6rcf7mxdmceyv6sqvtnwfqi7fmc
+    full_hash: qd25nwk2keb46dsuki5tlvelne7hcisy
+    build_hash: ckpif6rcf7mxdmceyv6sqvtnwfqi7fmc
+- libksba:
+    version: 1.5.1
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      cflags:
+      - -mmacosx-version-min=10.13
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: j4yidyojfwo45g42dtt3ksihibzkiyue2ag4kkeup35rjthllria====
+    dependencies:
+      libgpg-error:
+        hash: efoyjkfx5j2k2dh3usp7tiwqner3imeu
+        type:
+        - build
+        - link
+    hash: aodyg5mzfule3vimuetmzulv5mzdx37g
+    full_hash: lvkjarhomiodki75p567xfdx2kvuo2nx
+    build_hash: vpixvy77hecszcrot2vd6s3a5hdoncrl
+- npth:
+    version: '1.6'
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      cflags:
+      - -mmacosx-version-min=10.13
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: rwzqcpbpjjavzbvkz54i5swvezjwfzycxh5uy3tcmvt3nv7mslia====
+    hash: fjuoy73whriauk3bt6ma5fwet6iric7y
+    full_hash: mbcq57g5cviayq7ypouecqvnkpsrh2ai
+    build_hash: fjuoy73whriauk3bt6ma5fwet6iric7y
+- pinentry:
+    version: 1.1.1
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      gui:
+      - tty
+      cflags:
+      - -mmacosx-version-min=10.13
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: 7a7d3ahxi4xtbwp5r3ajdzify5rvbmklpztxbhkixzkoh6vax4qq====
+    dependencies:
+      libassuan:
+        hash: bbgunbhm2t2oje6hpkmdtxvkwh3ibn4j
+        type:
+        - build
+        - link
+      libgpg-error:
+        hash: efoyjkfx5j2k2dh3usp7tiwqner3imeu
+        type:
+        - build
+        - link
+    hash: ihqcvdm5okxuvnln463l7h4flbkhrp44
+    full_hash: kkpsam5zk5zxcomn42ocb24bxn55abta
+    build_hash: i5h2dwd2jrxsng3mjlwzkpr72ccw6vnf
+- zlib:
+    version: 1.2.11
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      optimize: true
+      pic: true
+      shared: true
+      cflags:
+      - -mmacosx-version-min=10.13
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: eukp6mqxxlfuxslsodbwbqtsznajielhh4avm2vgteo4ifdsjgjq====
+    hash: qo6otxqnn6mxpw4zhqc4wdwqmgcfjdfe
+    full_hash: ee5oj5zwwfu35fsyt2jf4f4ewl2dwm55
+    build_hash: qo6otxqnn6mxpw4zhqc4wdwqmgcfjdfe
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: 0fc52ca5a8c76199a9a551392182942caada2aedceaeaa7ee202ba0a8c6fd585
+buildinfo:
+  relative_prefix: darwin-catalina-x86_64/apple-clang-12.0.0/gnupg-2.3.1-47vilwybwuxved7jov7esiad3qlkv5rp
+  relative_rpaths: false

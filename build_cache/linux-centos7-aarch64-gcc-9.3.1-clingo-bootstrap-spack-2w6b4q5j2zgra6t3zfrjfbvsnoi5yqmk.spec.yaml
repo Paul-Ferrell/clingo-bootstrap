@@ -1,0 +1,177 @@
+spec:
+- clingo-bootstrap:
+    version: spack
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: aarch64
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      build_type: Release
+      docs: false
+      ipo: false
+      python: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: tqjlzmemb74j34syogelpufi4ejiill5n2wnnqusoadbecdiwyna====
+    dependencies:
+      bison:
+        hash: xo27vbx7dl3z26vzhf7gvormyzyud46r
+        type:
+        - build
+      cmake:
+        hash: srzno2xa5mpwowhftzbx546xbnh55jxz
+        type:
+        - build
+      python:
+        hash: esz6jn3bjw4obrubv2blutqtvaqo5lep
+        type:
+        - build
+        - link
+        - run
+      re2c:
+        hash: ywxj25ojyfebw25qtvkbq2sjq2zv2bvv
+        type:
+        - build
+    hash: 2w6b4q5j2zgra6t3zfrjfbvsnoi5yqmk
+    full_hash: 4lfzd22b6gjy2qocls7jf7rgy35agy5k
+    build_hash: fs5subbaefuj62ge6k6pylgh6s4h3ez3
+- bison:
+    version: 3.0.4
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: aarch64
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      patches:
+      - b72914fe38e54a6fc25f29019e0a0786705c4f61ce20d414cc2010c8d62448c7
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    external:
+      path: /
+      module:
+      extra_attributes: {}
+    patches:
+    - b72914fe38e54a6fc25f29019e0a0786705c4f61ce20d414cc2010c8d62448c7
+    package_hash: kifbjvkx4r2eb75ogf5n3v37wd3jekqh72ycqlc4guid6hxbjzpa====
+    hash: 6evj6somwcfylswdi3zua2nmsoqguwiq
+    full_hash: xo27vbx7dl3z26vzhf7gvormyzyud46r
+    build_hash: 6evj6somwcfylswdi3zua2nmsoqguwiq
+- cmake:
+    version: 3.20.0
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: aarch64
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      build_type: Release
+      doc: false
+      ncurses: true
+      openssl: true
+      ownlibs: true
+      qt: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    external:
+      path: /usr/local
+      module:
+      extra_attributes: {}
+    package_hash: 2y3lzujsbxbth7nme75xuqwmswt3gxikaszgkmfigsfy344opkeq====
+    hash: wpsdom7gkqsblhn2nhoetfnhzotoxh5b
+    full_hash: srzno2xa5mpwowhftzbx546xbnh55jxz
+    build_hash: wpsdom7gkqsblhn2nhoetfnhzotoxh5b
+- python:
+    version: '3.7'
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: aarch64
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      bz2: true
+      ctypes: true
+      dbm: true
+      debug: false
+      libxml2: true
+      lzma: true
+      nis: false
+      optimizations: false
+      pic: true
+      pyexpat: true
+      pythoncmd: true
+      readline: true
+      shared: true
+      sqlite3: true
+      ssl: true
+      tix: false
+      tkinter: false
+      ucs4: false
+      uuid: true
+      zlib: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    external:
+      path: /opt/python/cp37-cp37m
+      module:
+      extra_attributes: {}
+    package_hash: djvkcar5boe3pbvnuxv5bp3uwdukjzeww64gkavka43w3txoszlq====
+    hash: suq4h7ecrfr3rrsggvz5fja545ktvjrw
+    full_hash: esz6jn3bjw4obrubv2blutqtvaqo5lep
+    build_hash: suq4h7ecrfr3rrsggvz5fja545ktvjrw
+- re2c:
+    version: 1.2.1
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: aarch64
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: pvtxreyb5zz62oil5aezcfaqmvnnkakujhvsj5exhlvqk2euppga====
+    hash: nxfuuv3cccldh37qpl7h4zgos2z2ekok
+    full_hash: ywxj25ojyfebw25qtvkbq2sjq2zv2bvv
+    build_hash: nxfuuv3cccldh37qpl7h4zgos2z2ekok
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: 791dad116a2a8fadab9b96efe662493cb41266198dda07b14f9038a63794848d
+buildinfo:
+  relative_prefix: linux-centos7-aarch64/gcc-9.3.1/clingo-bootstrap-spack-2w6b4q5j2zgra6t3zfrjfbvsnoi5yqmk
+  relative_rpaths: false

@@ -1,0 +1,29 @@
+spec:
+- libiconv:
+    version: '1.16'
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      cflags:
+      - -mmacosx-version-min=10.13
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: mgw2tsf2rk73dqh2o4vdm4sawz2drd2mfe26zrfjfunvj5r5gplq====
+    hash: ckpif6rcf7mxdmceyv6sqvtnwfqi7fmc
+    full_hash: qd25nwk2keb46dsuki5tlvelne7hcisy
+    build_hash: ckpif6rcf7mxdmceyv6sqvtnwfqi7fmc
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: 33909630faf1b60797647a690d2b9c59f39cc76937ed1ad42f50d575879c0a9f
+buildinfo:
+  relative_prefix: darwin-catalina-x86_64/apple-clang-12.0.0/libiconv-1.16-ckpif6rcf7mxdmceyv6sqvtnwfqi7fmc
+  relative_rpaths: false

@@ -1,0 +1,298 @@
+spec:
+- gnupg:
+    version: 2.3.1
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: f2uew62xfzwbmxhp62to6letgzbr3y6mes5abkimd3gnvwrybiqq====
+    dependencies:
+      libassuan:
+        hash: mwy7qte6ow65qfghbnc5lvb2z3uiaugz
+        type:
+        - build
+        - link
+      libgcrypt:
+        hash: ao6f4oihhpoufjtqsdnq4pwbikhltj34
+        type:
+        - build
+        - link
+      libgpg-error:
+        hash: o6ejo54lgxmseg5gmxoh3kxqj3wyn2fs
+        type:
+        - build
+        - link
+      libiconv:
+        hash: cy6kqt6tsmfpc3bg6bo3dlkg4qq457o4
+        type:
+        - build
+        - link
+      libksba:
+        hash: kvz53adzpd3cylwkmlmtl2hxafvwftyy
+        type:
+        - build
+        - link
+      npth:
+        hash: bkl64erfozxkbbio4iwuxj3mfurdyrne
+        type:
+        - build
+        - link
+      pinentry:
+        hash: pqullr4adzptbqjswpdzb25pxcuqxcfn
+        type:
+        - run
+      zlib:
+        hash: 6i3hazmrtfqk4nixario7tzoiebc4mn5
+        type:
+        - build
+        - link
+    hash: ti2ddl27nilobj2ctwsgzl52qque5o7z
+    full_hash: qacb6jkgbr3zuueazs2em2gzag3uyrzh
+    build_hash: u2ffxzjo3a3dxpnansc6gblitw74jy3h
+- libassuan:
+    version: 2.5.5
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: 54t6mdshhmuaaunyeyfthbn6ejurfufvkuqbzmjm7csuusftzorq====
+    dependencies:
+      libgpg-error:
+        hash: o6ejo54lgxmseg5gmxoh3kxqj3wyn2fs
+        type:
+        - build
+        - link
+    hash: lyeih2j3miy7yugmwh37h667fogqn3fl
+    full_hash: mwy7qte6ow65qfghbnc5lvb2z3uiaugz
+    build_hash: xorpqpzcpu2p6zrfhztnxaq6whflewm4
+- libgpg-error:
+    version: '1.42'
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: ks2lkhntxixbclgaygkl7v7nc2qg43uj7sopoiopio7vsemiuk4q====
+    dependencies:
+      gawk:
+        hash: s3ywwkjquw6kkt3rq3ddswxkcpt2dh4h
+        type:
+        - build
+    hash: 4bp6dcfdbzbd4uuzvbgjyqunhjedg3lf
+    full_hash: o6ejo54lgxmseg5gmxoh3kxqj3wyn2fs
+    build_hash: 4swi7zwkxqnlfjs6msq7srqwte4cteze
+- gawk:
+    version: 4.0.2
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    external:
+      path: /
+      module:
+      extra_attributes: {}
+    package_hash: t24kt3qigracnnailckxumdpfqks66sdeuf7a5qesxmmjxjqhjqa====
+    hash: w2g4ifrr3p57upi6idzar4rxrpmb32sv
+    full_hash: s3ywwkjquw6kkt3rq3ddswxkcpt2dh4h
+    build_hash: w2g4ifrr3p57upi6idzar4rxrpmb32sv
+- libgcrypt:
+    version: 1.9.3
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: skfr2gtd3vho3xepzchzgbkvkogxf4xy5dhqssikumrpx2b76smq====
+    dependencies:
+      libgpg-error:
+        hash: o6ejo54lgxmseg5gmxoh3kxqj3wyn2fs
+        type:
+        - build
+        - link
+    hash: zb33zulvwcansfzu5km4d34avujnazfa
+    full_hash: ao6f4oihhpoufjtqsdnq4pwbikhltj34
+    build_hash: qht3rdwlxyrlxbi3wxwig5u6ht4irzur
+- libiconv:
+    version: '1.16'
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: mgw2tsf2rk73dqh2o4vdm4sawz2drd2mfe26zrfjfunvj5r5gplq====
+    hash: dscneqtpyy32r6ds24izlkki3euthnbr
+    full_hash: cy6kqt6tsmfpc3bg6bo3dlkg4qq457o4
+    build_hash: dscneqtpyy32r6ds24izlkki3euthnbr
+- libksba:
+    version: 1.5.1
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: j4yidyojfwo45g42dtt3ksihibzkiyue2ag4kkeup35rjthllria====
+    dependencies:
+      libgpg-error:
+        hash: o6ejo54lgxmseg5gmxoh3kxqj3wyn2fs
+        type:
+        - build
+        - link
+    hash: yjuh2aplj23qyvaqixukd7a6eokfdgyp
+    full_hash: kvz53adzpd3cylwkmlmtl2hxafvwftyy
+    build_hash: cgujbbz562gcmdnn35wwb3nbftzfvttp
+- npth:
+    version: '1.6'
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: rwzqcpbpjjavzbvkz54i5swvezjwfzycxh5uy3tcmvt3nv7mslia====
+    hash: jukmafxhkxo2s4udlzi5r5b6bbb3udw5
+    full_hash: bkl64erfozxkbbio4iwuxj3mfurdyrne
+    build_hash: jukmafxhkxo2s4udlzi5r5b6bbb3udw5
+- pinentry:
+    version: 1.1.1
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: 2tmnm4iov4nbxs2dshlwxemnylofhsmllwwgy4dt3vswh72z23qq====
+    dependencies:
+      libassuan:
+        hash: mwy7qte6ow65qfghbnc5lvb2z3uiaugz
+        type:
+        - build
+        - link
+      libgpg-error:
+        hash: o6ejo54lgxmseg5gmxoh3kxqj3wyn2fs
+        type:
+        - build
+        - link
+    hash: xd7vajghgcueohv5qgahdvbjpcnrurns
+    full_hash: pqullr4adzptbqjswpdzb25pxcuqxcfn
+    build_hash: hwx7gspl2dqjirart23ol3eopqbxvdec
+- zlib:
+    version: 1.2.11
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      optimize: true
+      pic: true
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: eukp6mqxxlfuxslsodbwbqtsznajielhh4avm2vgteo4ifdsjgjq====
+    hash: amqfrcbn67rochzkeu2ashklo35ayqqq
+    full_hash: 6i3hazmrtfqk4nixario7tzoiebc4mn5
+    build_hash: amqfrcbn67rochzkeu2ashklo35ayqqq
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: c38daf4b0e8604ef38a76c31e73cafaf961538db3c497df238ee332ce3a33c4e
+buildinfo:
+  relative_prefix: linux-centos7-ppc64le/gcc-9.3.1/gnupg-2.3.1-ti2ddl27nilobj2ctwsgzl52qque5o7z
+  relative_rpaths: false

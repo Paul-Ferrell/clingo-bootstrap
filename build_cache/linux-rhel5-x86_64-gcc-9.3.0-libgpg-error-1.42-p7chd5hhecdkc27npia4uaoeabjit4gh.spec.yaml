@@ -1,0 +1,58 @@
+spec:
+- libgpg-error:
+    version: '1.42'
+    arch:
+      platform: linux
+      platform_os: rhel5
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 9.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: ks2lkhntxixbclgaygkl7v7nc2qg43uj7sopoiopio7vsemiuk4q====
+    dependencies:
+      gawk:
+        hash: ujshryko2ehfr2lay3a6x7tz5ei43yns
+        type:
+        - build
+    hash: p7chd5hhecdkc27npia4uaoeabjit4gh
+    full_hash: qlvezu4ebokhyslobg23p6zih3fvjfe2
+    build_hash: omu73gthhesusvgmkqi2747mjp7r5nyy
+- gawk:
+    version: 3.1.5
+    arch:
+      platform: linux
+      platform_os: rhel5
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 9.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    external:
+      path: /usr
+      module:
+      extra_attributes: {}
+    package_hash: t24kt3qigracnnailckxumdpfqks66sdeuf7a5qesxmmjxjqhjqa====
+    hash: bmh7uojefahcv33kt7ojj273vlah6b7v
+    full_hash: ujshryko2ehfr2lay3a6x7tz5ei43yns
+    build_hash: bmh7uojefahcv33kt7ojj273vlah6b7v
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: e3c78bf6bd7ecbfe7bd674336b0c2d8e3a01825ceff70996170844254e892e0c
+buildinfo:
+  relative_prefix: linux-rhel5-x86_64/gcc-9.3.0/libgpg-error-1.42-p7chd5hhecdkc27npia4uaoeabjit4gh
+  relative_rpaths: false

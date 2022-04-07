@@ -1,0 +1,85 @@
+spec:
+- libgcrypt:
+    version: 1.9.3
+    arch:
+      platform: linux
+      platform_os: rhel5
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 9.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: skfr2gtd3vho3xepzchzgbkvkogxf4xy5dhqssikumrpx2b76smq====
+    dependencies:
+      libgpg-error:
+        hash: qlvezu4ebokhyslobg23p6zih3fvjfe2
+        type:
+        - build
+        - link
+    hash: ng7gfusjpnypmqgckq7rp4vq3bvylp3b
+    full_hash: safps23iz6mxpodsehwzxilhulbts2mq
+    build_hash: sbfm6dqhsvtppbu7muamb5davaurgl2d
+- libgpg-error:
+    version: '1.42'
+    arch:
+      platform: linux
+      platform_os: rhel5
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 9.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: ks2lkhntxixbclgaygkl7v7nc2qg43uj7sopoiopio7vsemiuk4q====
+    dependencies:
+      gawk:
+        hash: ujshryko2ehfr2lay3a6x7tz5ei43yns
+        type:
+        - build
+    hash: p7chd5hhecdkc27npia4uaoeabjit4gh
+    full_hash: qlvezu4ebokhyslobg23p6zih3fvjfe2
+    build_hash: omu73gthhesusvgmkqi2747mjp7r5nyy
+- gawk:
+    version: 3.1.5
+    arch:
+      platform: linux
+      platform_os: rhel5
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 9.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    external:
+      path: /usr
+      module:
+      extra_attributes: {}
+    package_hash: t24kt3qigracnnailckxumdpfqks66sdeuf7a5qesxmmjxjqhjqa====
+    hash: bmh7uojefahcv33kt7ojj273vlah6b7v
+    full_hash: ujshryko2ehfr2lay3a6x7tz5ei43yns
+    build_hash: bmh7uojefahcv33kt7ojj273vlah6b7v
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: b0842d6fa820a6b6ca6bd5318b934992845f1993a0acb9955b358a42ef8a10b9
+buildinfo:
+  relative_prefix: linux-rhel5-x86_64/gcc-9.3.0/libgcrypt-1.9.3-ng7gfusjpnypmqgckq7rp4vq3bvylp3b
+  relative_rpaths: false

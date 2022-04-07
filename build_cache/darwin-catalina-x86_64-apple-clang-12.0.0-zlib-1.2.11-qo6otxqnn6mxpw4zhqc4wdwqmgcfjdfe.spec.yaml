@@ -1,0 +1,32 @@
+spec:
+- zlib:
+    version: 1.2.11
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      optimize: true
+      pic: true
+      shared: true
+      cflags:
+      - -mmacosx-version-min=10.13
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: eukp6mqxxlfuxslsodbwbqtsznajielhh4avm2vgteo4ifdsjgjq====
+    hash: qo6otxqnn6mxpw4zhqc4wdwqmgcfjdfe
+    full_hash: ee5oj5zwwfu35fsyt2jf4f4ewl2dwm55
+    build_hash: qo6otxqnn6mxpw4zhqc4wdwqmgcfjdfe
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: 2b3cb06b9f02a002bc5dcfe583b6b56504c13e6386df8cc1b04a9fe6d450c91e
+buildinfo:
+  relative_prefix: darwin-catalina-x86_64/apple-clang-12.0.0/zlib-1.2.11-qo6otxqnn6mxpw4zhqc4wdwqmgcfjdfe
+  relative_rpaths: false

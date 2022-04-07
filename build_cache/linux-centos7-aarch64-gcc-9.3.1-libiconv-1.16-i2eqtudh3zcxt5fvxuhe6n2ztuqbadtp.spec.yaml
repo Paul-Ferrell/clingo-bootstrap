@@ -1,0 +1,28 @@
+spec:
+- libiconv:
+    version: '1.16'
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: aarch64
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: mgw2tsf2rk73dqh2o4vdm4sawz2drd2mfe26zrfjfunvj5r5gplq====
+    hash: i2eqtudh3zcxt5fvxuhe6n2ztuqbadtp
+    full_hash: l6tld3ii6vdfokizqn3zygbtvc3uxien
+    build_hash: i2eqtudh3zcxt5fvxuhe6n2ztuqbadtp
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: 5fd031fc05f08286af4c9c925ce522e0cd858b8c58ea4c85034eab50f842d0a2
+buildinfo:
+  relative_prefix: linux-centos7-aarch64/gcc-9.3.1/libiconv-1.16-i2eqtudh3zcxt5fvxuhe6n2ztuqbadtp
+  relative_rpaths: false

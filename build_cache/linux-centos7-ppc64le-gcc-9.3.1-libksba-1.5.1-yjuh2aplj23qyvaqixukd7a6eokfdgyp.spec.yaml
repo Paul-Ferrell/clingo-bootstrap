@@ -1,0 +1,85 @@
+spec:
+- libksba:
+    version: 1.5.1
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: j4yidyojfwo45g42dtt3ksihibzkiyue2ag4kkeup35rjthllria====
+    dependencies:
+      libgpg-error:
+        hash: o6ejo54lgxmseg5gmxoh3kxqj3wyn2fs
+        type:
+        - build
+        - link
+    hash: yjuh2aplj23qyvaqixukd7a6eokfdgyp
+    full_hash: kvz53adzpd3cylwkmlmtl2hxafvwftyy
+    build_hash: cgujbbz562gcmdnn35wwb3nbftzfvttp
+- libgpg-error:
+    version: '1.42'
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: ks2lkhntxixbclgaygkl7v7nc2qg43uj7sopoiopio7vsemiuk4q====
+    dependencies:
+      gawk:
+        hash: s3ywwkjquw6kkt3rq3ddswxkcpt2dh4h
+        type:
+        - build
+    hash: 4bp6dcfdbzbd4uuzvbgjyqunhjedg3lf
+    full_hash: o6ejo54lgxmseg5gmxoh3kxqj3wyn2fs
+    build_hash: 4swi7zwkxqnlfjs6msq7srqwte4cteze
+- gawk:
+    version: 4.0.2
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    external:
+      path: /
+      module:
+      extra_attributes: {}
+    package_hash: t24kt3qigracnnailckxumdpfqks66sdeuf7a5qesxmmjxjqhjqa====
+    hash: w2g4ifrr3p57upi6idzar4rxrpmb32sv
+    full_hash: s3ywwkjquw6kkt3rq3ddswxkcpt2dh4h
+    build_hash: w2g4ifrr3p57upi6idzar4rxrpmb32sv
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: f6f50ef04e60db1e43bc295c355e2c64c44b456c5ef4fb3d701833473f33665f
+buildinfo:
+  relative_prefix: linux-centos7-ppc64le/gcc-9.3.1/libksba-1.5.1-yjuh2aplj23qyvaqixukd7a6eokfdgyp
+  relative_rpaths: false

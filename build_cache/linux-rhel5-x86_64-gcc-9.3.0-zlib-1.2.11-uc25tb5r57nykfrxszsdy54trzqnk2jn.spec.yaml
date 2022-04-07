@@ -1,0 +1,31 @@
+spec:
+- zlib:
+    version: 1.2.11
+    arch:
+      platform: linux
+      platform_os: rhel5
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 9.3.0
+    namespace: builtin
+    parameters:
+      optimize: true
+      pic: true
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: eukp6mqxxlfuxslsodbwbqtsznajielhh4avm2vgteo4ifdsjgjq====
+    hash: uc25tb5r57nykfrxszsdy54trzqnk2jn
+    full_hash: r2pha5knhqbdl5ppclge5nxcwlq3wjf5
+    build_hash: uc25tb5r57nykfrxszsdy54trzqnk2jn
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: 915c0a319aaf1984f4a759e7d6167bb24e90fae2573c12969f1f016a3af70a40
+buildinfo:
+  relative_prefix: linux-rhel5-x86_64/gcc-9.3.0/zlib-1.2.11-uc25tb5r57nykfrxszsdy54trzqnk2jn
+  relative_rpaths: false

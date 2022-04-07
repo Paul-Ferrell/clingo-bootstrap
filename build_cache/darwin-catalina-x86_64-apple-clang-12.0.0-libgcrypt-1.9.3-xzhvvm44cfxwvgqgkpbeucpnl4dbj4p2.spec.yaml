@@ -1,0 +1,88 @@
+spec:
+- libgcrypt:
+    version: 1.9.3
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      cflags:
+      - -mmacosx-version-min=10.13
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: skfr2gtd3vho3xepzchzgbkvkogxf4xy5dhqssikumrpx2b76smq====
+    dependencies:
+      libgpg-error:
+        hash: efoyjkfx5j2k2dh3usp7tiwqner3imeu
+        type:
+        - build
+        - link
+    hash: xzhvvm44cfxwvgqgkpbeucpnl4dbj4p2
+    full_hash: tldlagbwtfop4ldcbdtbaskvoyxprhuk
+    build_hash: xxl3q4saas4nc6ifmvqrm627sozbu2nc
+- libgpg-error:
+    version: '1.42'
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      cflags:
+      - -mmacosx-version-min=10.13
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: mycuq2w4p7njxaydwsnf66vnjj74ouekz6hsa2hvdnlbcg7nhe7a====
+    dependencies:
+      gawk:
+        hash: yy2iyyt6rrbelj6fkq5z66gqyyjhgplr
+        type:
+        - build
+    hash: hph66gvb7vlinpzwoytxq27ojb7gtl2j
+    full_hash: efoyjkfx5j2k2dh3usp7tiwqner3imeu
+    build_hash: 4gw7s5vqs3w76gkz7zdlmtgt5dit5flo
+- gawk:
+    version: 5.1.0
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      cflags:
+      - -mmacosx-version-min=10.13
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    external:
+      path: /usr/local
+      module:
+      extra_attributes: {}
+    package_hash: ubpoh2vyh46fyaruj3jblimedbaotumfe5c3gxclh6y4nowej62q====
+    hash: iejesutrcoyuhocghl5zlbsqhol2qxcx
+    full_hash: yy2iyyt6rrbelj6fkq5z66gqyyjhgplr
+    build_hash: iejesutrcoyuhocghl5zlbsqhol2qxcx
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: 782b1e956ef66889df18def4a3b2d7ac4694d719a7c1d0d14e5326857515070c
+buildinfo:
+  relative_prefix: darwin-catalina-x86_64/apple-clang-12.0.0/libgcrypt-1.9.3-xzhvvm44cfxwvgqgkpbeucpnl4dbj4p2
+  relative_rpaths: false

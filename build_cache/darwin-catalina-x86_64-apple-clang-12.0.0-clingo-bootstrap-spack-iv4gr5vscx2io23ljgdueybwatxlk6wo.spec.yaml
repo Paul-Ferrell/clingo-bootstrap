@@ -1,0 +1,177 @@
+spec:
+- clingo-bootstrap:
+    version: spack
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      build_type: Release
+      docs: false
+      ipo: false
+      python: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: h2bloy33jkjva5ni2f7tufdvfvbbavxze47urfofplxayx5yx3dq====
+    dependencies:
+      bison:
+        hash: fjmctnlmbyqlwsv6mgqnwbwawhph4itt
+        type:
+        - build
+      cmake:
+        hash: 46sgassbkyr7ey3spn4r6jnextam2uwx
+        type:
+        - build
+      python:
+        hash: 2pxufxsijou2smbwjqoy3ilqbrigxjge
+        type:
+        - build
+        - link
+        - run
+      re2c:
+        hash: vljroymz7nux4edjffa3dzafgtz7kbyi
+        type:
+        - build
+    hash: iv4gr5vscx2io23ljgdueybwatxlk6wo
+    full_hash: irjgkxmoqeigvqcnnk3k3zegpxv6e3b4
+    build_hash: l3m2jpaem2k5uptr4d3uxfyhgqyjecn5
+- bison:
+    version: 3.7.6
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    external:
+      path: /usr/local/opt/bison
+      module:
+      extra_attributes: {}
+    package_hash: s5clruu6bj2tdzqyay4piqtzkykmlcupievdn2tbgnttdd3norqq====
+    hash: 6rhie6ntchiwvnu5fsbgzknaqjmplbla
+    full_hash: fjmctnlmbyqlwsv6mgqnwbwawhph4itt
+    build_hash: 6rhie6ntchiwvnu5fsbgzknaqjmplbla
+- cmake:
+    version: 3.21.0
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      build_type: Release
+      doc: false
+      ncurses: true
+      openssl: true
+      ownlibs: true
+      qt: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    external:
+      path: /usr/local
+      module:
+      extra_attributes: {}
+    package_hash: pp4e73mzuhcouu37xpevkidsvxm3viprlobqyv6cp2ul2ij74jyq====
+    hash: jt3hvj6i7jedmdix7tdgl6n4a6ssrxaa
+    full_hash: 46sgassbkyr7ey3spn4r6jnextam2uwx
+    build_hash: jt3hvj6i7jedmdix7tdgl6n4a6ssrxaa
+- python:
+    version: '3.6'
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      bz2: true
+      ctypes: true
+      dbm: true
+      debug: false
+      libxml2: true
+      lzma: true
+      nis: false
+      optimizations: false
+      patches:
+      - 210df3f28cde02a8135b58cc4168e70ab91dbf9097359d05938f1e2843875e57
+      pic: true
+      pyexpat: true
+      pythoncmd: true
+      readline: true
+      shared: true
+      sqlite3: true
+      ssl: true
+      tix: false
+      tkinter: false
+      ucs4: false
+      uuid: true
+      zlib: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    external:
+      path: /Users/runner/hostedtoolcache/Python/3.6.14/x64
+      module:
+      extra_attributes: {}
+    patches:
+    - 210df3f28cde02a8135b58cc4168e70ab91dbf9097359d05938f1e2843875e57
+    package_hash: zofuc5mb3jupoajmko7sc44iex2syfruzjbqrtfxorwqpgyntgwq====
+    hash: oss3ubsoodoa52cyeqzfhgpbsfuquno3
+    full_hash: 2pxufxsijou2smbwjqoy3ilqbrigxjge
+    build_hash: oss3ubsoodoa52cyeqzfhgpbsfuquno3
+- re2c:
+    version: 1.2.1
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: pvtxreyb5zz62oil5aezcfaqmvnnkakujhvsj5exhlvqk2euppga====
+    hash: 7eg6bjrpxpiackuur7ruknhsbjz2wikq
+    full_hash: vljroymz7nux4edjffa3dzafgtz7kbyi
+    build_hash: 7eg6bjrpxpiackuur7ruknhsbjz2wikq
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: c32e10cec6ab5edbb90cc55b9d5ea97f34c70f62078a748a38a699cf232c31f2
+buildinfo:
+  relative_prefix: darwin-catalina-x86_64/apple-clang-12.0.0/clingo-bootstrap-spack-iv4gr5vscx2io23ljgdueybwatxlk6wo
+  relative_rpaths: false

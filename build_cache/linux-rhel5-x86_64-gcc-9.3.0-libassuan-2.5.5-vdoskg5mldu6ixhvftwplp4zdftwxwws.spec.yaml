@@ -1,0 +1,85 @@
+spec:
+- libassuan:
+    version: 2.5.5
+    arch:
+      platform: linux
+      platform_os: rhel5
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 9.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: 54t6mdshhmuaaunyeyfthbn6ejurfufvkuqbzmjm7csuusftzorq====
+    dependencies:
+      libgpg-error:
+        hash: qlvezu4ebokhyslobg23p6zih3fvjfe2
+        type:
+        - build
+        - link
+    hash: vdoskg5mldu6ixhvftwplp4zdftwxwws
+    full_hash: edcuhph2mujfduy6pcstzeq5yolmohwd
+    build_hash: kfkpqwo54x3bgwhvup5h3vqe7g5qzbqs
+- libgpg-error:
+    version: '1.42'
+    arch:
+      platform: linux
+      platform_os: rhel5
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 9.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: ks2lkhntxixbclgaygkl7v7nc2qg43uj7sopoiopio7vsemiuk4q====
+    dependencies:
+      gawk:
+        hash: ujshryko2ehfr2lay3a6x7tz5ei43yns
+        type:
+        - build
+    hash: p7chd5hhecdkc27npia4uaoeabjit4gh
+    full_hash: qlvezu4ebokhyslobg23p6zih3fvjfe2
+    build_hash: omu73gthhesusvgmkqi2747mjp7r5nyy
+- gawk:
+    version: 3.1.5
+    arch:
+      platform: linux
+      platform_os: rhel5
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 9.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    external:
+      path: /usr
+      module:
+      extra_attributes: {}
+    package_hash: t24kt3qigracnnailckxumdpfqks66sdeuf7a5qesxmmjxjqhjqa====
+    hash: bmh7uojefahcv33kt7ojj273vlah6b7v
+    full_hash: ujshryko2ehfr2lay3a6x7tz5ei43yns
+    build_hash: bmh7uojefahcv33kt7ojj273vlah6b7v
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: a01644853b531e685e9aa29cbdaeef55b797892f4f001608926876c4c25b6425
+buildinfo:
+  relative_prefix: linux-rhel5-x86_64/gcc-9.3.0/libassuan-2.5.5-vdoskg5mldu6ixhvftwplp4zdftwxwws
+  relative_rpaths: false

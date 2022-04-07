@@ -1,0 +1,28 @@
+spec:
+- npth:
+    version: '1.6'
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: ppc64le
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: rwzqcpbpjjavzbvkz54i5swvezjwfzycxh5uy3tcmvt3nv7mslia====
+    hash: jukmafxhkxo2s4udlzi5r5b6bbb3udw5
+    full_hash: bkl64erfozxkbbio4iwuxj3mfurdyrne
+    build_hash: jukmafxhkxo2s4udlzi5r5b6bbb3udw5
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: 977c7cd68f79125cb906225e37da7be6fab6b23f4967aed800b2ec82014494bf
+buildinfo:
+  relative_prefix: linux-centos7-ppc64le/gcc-9.3.1/npth-1.6-jukmafxhkxo2s4udlzi5r5b6bbb3udw5
+  relative_rpaths: false

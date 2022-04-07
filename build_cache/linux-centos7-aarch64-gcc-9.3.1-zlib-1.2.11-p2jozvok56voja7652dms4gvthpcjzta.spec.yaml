@@ -1,0 +1,31 @@
+spec:
+- zlib:
+    version: 1.2.11
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: aarch64
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      optimize: true
+      pic: true
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: eukp6mqxxlfuxslsodbwbqtsznajielhh4avm2vgteo4ifdsjgjq====
+    hash: p2jozvok56voja7652dms4gvthpcjzta
+    full_hash: qcd5p4waztszsrdsxv3odpn5jjtb4cdf
+    build_hash: p2jozvok56voja7652dms4gvthpcjzta
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: d4dff16941d62d11fd3353ed3acc112de0320206b9a81611e56b9cb041c9bbcb
+buildinfo:
+  relative_prefix: linux-centos7-aarch64/gcc-9.3.1/zlib-1.2.11-p2jozvok56voja7652dms4gvthpcjzta
+  relative_rpaths: false

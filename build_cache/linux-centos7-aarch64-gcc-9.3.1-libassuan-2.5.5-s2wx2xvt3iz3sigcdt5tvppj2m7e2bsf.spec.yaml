@@ -1,0 +1,85 @@
+spec:
+- libassuan:
+    version: 2.5.5
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: aarch64
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: 54t6mdshhmuaaunyeyfthbn6ejurfufvkuqbzmjm7csuusftzorq====
+    dependencies:
+      libgpg-error:
+        hash: ujunezjekfbixwemaxr5kgpcno5i3djw
+        type:
+        - build
+        - link
+    hash: s2wx2xvt3iz3sigcdt5tvppj2m7e2bsf
+    full_hash: dk4c3mxzul6ts42w57hnjz7yyubli6mv
+    build_hash: fakj7va7gsa7vqliphtbxttclrefgz3j
+- libgpg-error:
+    version: '1.42'
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: aarch64
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: ks2lkhntxixbclgaygkl7v7nc2qg43uj7sopoiopio7vsemiuk4q====
+    dependencies:
+      gawk:
+        hash: e277qpxggs445ibasaw64h7pclkiguub
+        type:
+        - build
+    hash: 3dkguooajaaejhsebigs2e3lhk37mtem
+    full_hash: ujunezjekfbixwemaxr5kgpcno5i3djw
+    build_hash: plqb5z624m37wlsnvr2gsr2a4xgeouxm
+- gawk:
+    version: 4.0.2
+    arch:
+      platform: linux
+      platform_os: centos7
+      target: aarch64
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    external:
+      path: /usr
+      module:
+      extra_attributes: {}
+    package_hash: t24kt3qigracnnailckxumdpfqks66sdeuf7a5qesxmmjxjqhjqa====
+    hash: 5bfgfyq44drmyv6wmgp5xdfh5sfmk6yi
+    full_hash: e277qpxggs445ibasaw64h7pclkiguub
+    build_hash: 5bfgfyq44drmyv6wmgp5xdfh5sfmk6yi
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: 3d6ff4f27f96c4143a0b1396478d4b60392a08b01b759510e08603fcd08d8d87
+buildinfo:
+  relative_prefix: linux-centos7-aarch64/gcc-9.3.1/libassuan-2.5.5-s2wx2xvt3iz3sigcdt5tvppj2m7e2bsf
+  relative_rpaths: false

@@ -1,0 +1,29 @@
+spec:
+- npth:
+    version: '1.6'
+    arch:
+      platform: darwin
+      platform_os: catalina
+      target: x86_64
+    compiler:
+      name: apple-clang
+      version: 12.0.0
+    namespace: builtin
+    parameters:
+      cflags:
+      - -mmacosx-version-min=10.13
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: rwzqcpbpjjavzbvkz54i5swvezjwfzycxh5uy3tcmvt3nv7mslia====
+    hash: fjuoy73whriauk3bt6ma5fwet6iric7y
+    full_hash: mbcq57g5cviayq7ypouecqvnkpsrh2ai
+    build_hash: fjuoy73whriauk3bt6ma5fwet6iric7y
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: f53375c8f1716f451337449e0510f14a7a20ff371435476fa59b5af17bc7c879
+buildinfo:
+  relative_prefix: darwin-catalina-x86_64/apple-clang-12.0.0/npth-1.6-fjuoy73whriauk3bt6ma5fwet6iric7y
+  relative_rpaths: false

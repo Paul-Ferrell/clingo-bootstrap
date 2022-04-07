@@ -1,0 +1,28 @@
+spec:
+- libiconv:
+    version: '1.16'
+    arch:
+      platform: linux
+      platform_os: rhel5
+      target: x86_64
+    compiler:
+      name: gcc
+      version: 9.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    package_hash: mgw2tsf2rk73dqh2o4vdm4sawz2drd2mfe26zrfjfunvj5r5gplq====
+    hash: scpkgy6bmk3wcgfwzoiv7hw74drmnaoi
+    full_hash: ilkbnzkoagfl4bjkky6f52xh2xs5nidl
+    build_hash: scpkgy6bmk3wcgfwzoiv7hw74drmnaoi
+binary_cache_checksum:
+  hash_algorithm: sha256
+  hash: aeb1791c4c4ffd6f06f049b3580886034008db34edb22e976f87fc52b3529686
+buildinfo:
+  relative_prefix: linux-rhel5-x86_64/gcc-9.3.0/libiconv-1.16-scpkgy6bmk3wcgfwzoiv7hw74drmnaoi
+  relative_rpaths: false
