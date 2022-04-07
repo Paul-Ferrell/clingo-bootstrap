@@ -11,4 +11,3 @@ Instructions
 5. Copy the bootstrap.yaml file from this repo to `etc/spack/bootstrap.yaml`
 6. Edit `etc/spack/bootstrap.yaml` such that the 'url' line is the local path to this repo.
 7. Run `spack spec freetype` to test.
-
