@@ -1,0 +1,14 @@
+bootstrap:
+  sources:
+  - name: 'local'
+    type: buildcache
+    description: |
+      Build cache kept internally to avoid firewall woes.
+      The sha256 checksum of binaries is checked before installation.
+    info:
+      # Change to the path to this repo, such as `file:///home/bob/clingo-bootstrap`
+      url: file://<PATH-TO-UNTAR'D-BUILDCACHE>
+      homepage: https://github.com/alalazo/spack-bootstrap-mirrors
+      releases: https://github.com/alalazo/spack-bootstrap-mirrors/releases
+  trusted:
+    local: true
